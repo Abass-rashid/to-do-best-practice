@@ -1,6 +1,6 @@
-import { save, load } from "./data.js";
+import { save, load } from './data.js';
 
-const theBigList = document.querySelector(".todos");
+const theBigList = document.querySelector('.todos');
 
 export function antiShowAll(element) {
   while (element.lastElementChild) {
@@ -35,7 +35,7 @@ export function elimanateOne(element) {
   const actualtodo = load();
   const result = actualtodo.filter((activity) => activity.id === id);
   element.parentNode.removeChild(element);
-  const e = theBigList.querySelectorAll(".todo");
+  const e = theBigList.querySelectorAll('.todo');
   for (let i = 0; i < result.length; i += 1) {
     result[i].index = i;
     e[i].id = i;
