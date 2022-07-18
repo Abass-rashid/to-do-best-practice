@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# TO-DO-LIST
+# TO-do-best-practice.
 
 > Description the project.
 > [screenshot](./assets/todo-list.png)
