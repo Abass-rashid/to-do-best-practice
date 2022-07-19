@@ -10,7 +10,7 @@ export function antiShowAll(element) {
 
 export function elimanateCompleteds() {
   const actualtodo = load();
-  const result = actualtodo.filter((activity) => (activity.completed === false));
+  const result = actualtodo.filter((activity) => activity.completed === false);
   for (let i = 0; i < result.length; i += 1) {
     result[i].index = i;
   }
